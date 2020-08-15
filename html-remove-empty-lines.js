@@ -1,7 +1,5 @@
 'use strict';
 
-var fs = require('fs');
-
 function htmlRemoveEmptyLines(str) {
   var pre = false;
   var code = false;
@@ -29,10 +27,4 @@ function htmlRemoveEmptyLines(str) {
   return mod.join('\n');
 }
 
-if (require.main === module) {
-  return fs.promises.readFile(process.argv[2], 'utf8').then(function (str) {
-    console.log(htmlRemoveEmptyLines(str));
-  });
-} else {
-  module.exports = { htmlRemoveEmptyLines };
-}
+module.exports = { htmlRemoveEmptyLines };
