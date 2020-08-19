@@ -11,9 +11,8 @@ console.log('starting');
 var walker = walk.walk(process.argv[2], {});
 
 walker.on('file', function (root, stat, next) {
-  var { name } = stat;
-  var filepath = path.join(root, name);
-  if (name.endsWith('.html')) {
+  var filepath = path.join(root, stat.name);
+  if (stat.name.endsWith('.html')) {
     fs.promises
       .readFile(filepath, 'utf8')
       .then(function (htmlDocString) {
@@ -26,6 +25,8 @@ walker.on('file', function (root, stat, next) {
         console.log('wrote', filepath);
         next();
       });
+  } else {
+    next();
   }
 });
 
