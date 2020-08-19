@@ -17,7 +17,10 @@ walker.on('file', function (root, stat, next) {
     fs.promises
       .readFile(filepath, 'utf8')
       .then(function (htmlDocString) {
-        return fs.promises.writeFile(filepath, htmlRemoveEmptyLines(htmlDocString));
+        return fs.promises.writeFile(
+          filepath,
+          htmlRemoveEmptyLines(htmlDocString)
+        );
       })
       .then(function () {
         console.log('wrote', filepath);

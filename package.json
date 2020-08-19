@@ -1,10 +1,10 @@
 {
   "name": "@ryanburnette/html-remove-empty-lines",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Remove empty lines from HTML.",
   "main": "index.js",
   "bin": {
-    "html-remove-empty-lines": "bin/html-remove-empty-lines"
+    "html-remove-empty-lines": "bin/html-remove-empty-lines.js"
   },
   "repository": {
     "type": "git",
