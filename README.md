@@ -14,12 +14,12 @@ npm install -g @ryanburnette/html-remove-empty-lines
 ## Command Line
 
 ```bash
-html-remove-empty-lines index.html
+html-remove-empty-lines html/
 ```
 
 ## Module
 
 ```js
-var { htmlRemoveEmptyLines } = require('@ryanburnette/html-remove-empty-lines');
+var htmlRemoveEmptyLines = require('@ryanburnette/html-remove-empty-lines');
 console.log(htmlRemoveEmptyLines('<html>\n\n</html>'));
 ```
