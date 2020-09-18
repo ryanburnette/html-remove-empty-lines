@@ -1,6 +1,6 @@
 {
   "name": "@ryanburnette/html-remove-empty-lines",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "description": "Remove empty lines from HTML.",
   "main": "index.js",
   "bin": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ryanburnette/html-remove-empty-lines.git"
+    "url": "https://git.ryanburnette.com/ryanburnette/html-remove-empty-lines.git"
   },
   "author": "Ryan Burnette <ryan.burnette@gmail.com> (https://ryanburnette.com)",
   "license": "ISC",

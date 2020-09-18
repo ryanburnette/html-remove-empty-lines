@@ -1,6 +1,6 @@
-# [html-remove-empty-lines](https://github.com/ryanburnette/html-remove-empty-lines)
+# [html-remove-empty-lines](https://git.ryanburnette.com/ryanburnette/html-remove-empty-lines)
 
-[![repo](https://img.shields.io/badge/repository-Github-black.svg?style=flat-square)](https://github.com/ryanburnette/html-remove-empty-lines)
+[![repo](https://img.shields.io/badge/repository-Github-black.svg?style=flat-square)](https://git.ryanburnette.com/ryanburnette/html-remove-empty-lines)
 [![npm](https://img.shields.io/badge/package-NPM-green.svg?style=flat-square)](https://www.npmjs.com/package/@ryanburnette/html-remove-empty-lines)
 
 Remove empty lines from an HTML file without messing up `<pre>`.
