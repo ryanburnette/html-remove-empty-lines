@@ -18,6 +18,9 @@ Install globally with npm to use in your local environment.
 
 ```bash
 npm install -g @ryanburnette/html-remove-empty-lines
+```
+
+```bash
 html-remove-empty-lines public/
 ```
 
